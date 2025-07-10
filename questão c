@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+int numero1, numero2, adicao, subtracao, divisao, multiplicacao;
+printf("valor da variavel numero1 é:");
+scanf("%d", &numero1);
+printf("o valor da varivel numero 2 é:");
+scanf("%d", &numero2);
+
+adicao = numero1+numero2;
+subtracao = numero1-numero2;
+multiplicacao = numero1*numero2;
+divisao = numero1/numero2;
+if (numero2==0){
+   printf("error, divisao por zero");
+  }else{
+   printf("o valor da divisao é:", divisao);
+  }
+  
+  printf ("O valor da soma é: %d", adicao);
+  printf ("O valor da multiplicação é: %d", multiplicacao);
+  printf ("O valor da subtraçao é: %d", subtracao);
+  printf ("O valor da divisão é: %d", divisao);
+}
