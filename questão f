@@ -4,17 +4,14 @@ int main() {
     float raio, altura, volume;
     const float PI = 3.14159;
 
-    // Entrada dos dados
     printf("coloque o raio da lata (em cm): ");
     scanf("%f", &raio);
     
     printf("coloque a altura da lata (em cm): ");
     scanf("%f", &altura);
 
-    // Cálculo do volume
     volume = PI * raio * raio * altura;
 
-    // Saída do resultado
     printf("O volume da lata é: %.2f cm³\n", volume);
 
     return 0;
